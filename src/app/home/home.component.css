@@ -1,5 +1,6 @@
 
 .header {
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -146,7 +147,6 @@
     border-radius: 8px;
     font-size: 19px;
     color: #081b29;
-    text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
     z-index: 1;
@@ -220,7 +220,6 @@
     border-radius: 50%;
     font-size: 20px;
     color: #00abf0;
-    text-decoration: none;
     z-index: 1;
     overflow: hidden;
     transition: .5s;
@@ -296,7 +295,7 @@
 }
 
 .videos {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     justify-items:auto;
     padding: 15px 10px;
